@@ -1,34 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: "Merriweather", serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Merriweather", serif;
 }
 
-header{
-    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url("../assets/Banner\ Image.png");
-    height: 208px;
-    padding: 177px 330px;
-    margin: 50px 150px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-color: aqua;
-    border-radius: 16px;
+
+/* header section styles */
+header {
+  background-image: linear-gradient(
+      180deg,
+      rgb(7, 2, 17),
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url("../assets/Banner\ Image.png");
+  height: 200px;
+  padding: 177px 330px;
+  margin: 50px 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: aqua;
+  border-radius: 16px;
 }
-header > p,h1{
-    color: white;
+header > p,
+h1 {
+  color: white;
+  text-align: center;
+}
+header > p {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+header > h1 {
+  font-size: 72px;
+  line-height: 95px;
+  font-weight: 900;
+}
+
+/* offer section styles */
+.offer{
+    margin: 120px 400px;
     text-align: center;
 }
-header > p{
-    font-size: 32px;
-    line-height: 40px;
-    font-weight: 400;
-    margin-bottom: 16px;
+.offer h1 {
+  color: red;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 107px;
+  margin-bottom: 48px;
 }
-header > h1{
-    font-size: 72px;
-    line-height: 95px;
-    font-weight: 900;
+.offer .sub {
+  color: red;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  margin-bottom: 16px;
+}
+.offer h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  margin-bottom: 48px;
 }
