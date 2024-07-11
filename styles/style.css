@@ -417,3 +417,52 @@ text-align: center;
     display: flex;
     gap: 0px;
 }
+
+/* footer section styles */
+.footer{
+    margin: 0px;
+    padding: 120px 140px;
+    background: rgb(7, 2, 17);
+    color: white;
+}
+.footer .top{
+display: flex;
+justify-content: space-between;
+
+}
+.footer .top p{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer hr{
+    margin: 50px 0px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.footer .copyright{
+    display: flex;
+justify-content: space-between;
+}
+.footer .copyright p{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer .social img{
+width: 64px;
+height: 64px;
+}
+.footer .social {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+
+}
