@@ -236,3 +236,70 @@ margin-bottom: 16px;
     border-radius: 220px;
     padding: 10px;
 }
+
+/* holyday section style */
+.holiday-offer{
+    margin: 100px 140px;
+}
+.holiday-offer .title{
+    text-align: center;
+}
+.holiday-offer .title .sub{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+margin-bottom: 16px;
+}
+
+.holiday-offer .title h1{
+    color: black;
+    font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 91px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 28px;
+}
+.holiday-offer .title h1 span{
+    color: red;
+}
+.holiday-offer .title .description{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 64px;
+}
+.holiday-offer .img{
+    width: 1320px;
+    height: 662px;
+    position: relative;
+}
+.holiday-offer #floor{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.holiday-offer #lady{
+    position: absolute;
+    right: 0px;
+}
+.holiday-offer #gift{
+    width: 500px;
+    position: absolute;
+    left: 100px;
+    bottom: 44px;
+}
+.holiday-offer #discount{
+    position: absolute;
+    right: 277px;
+    top: 77px;
+}
