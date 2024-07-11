@@ -127,3 +127,36 @@ header > h1 {
   text-align: center;
   cursor: pointer;
 }
+
+/* Location section */
+.location {
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  padding: 100px 385px;
+    margin: 100px 140px;
+    text-align: center;
+}
+.location span{
+    color: red;
+}
+.location span,p{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+}
+.location button{
+    color: white;
+    border-radius: 8px;
+background: rgb(255, 0, 0);
+margin: 48px;
+padding: 16px 32px 16px 32px;
+border: none;
+cursor: pointer;
+}
